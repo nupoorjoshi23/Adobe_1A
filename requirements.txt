@@ -1,0 +1,27 @@
+# # requirements.txt
+# pandas
+# torch --index-url https://download.pytorch.org/whl/cpu
+# transformers
+# datasets
+# scikit-learn
+# pymupdf
+# pillow
+# lxml
+
+
+
+# requirements.txt (FINAL for Submission)
+pandas
+# For final Docker build: torch==2.1.0 --index-url https://download.pytorch.org/whl/cpu
+transformers==4.36.2
+datasets
+scikit-learn
+pymupdf
+Pillow
+lxml
+protobuf
+tiktoken
+sentencepiece
+accelerate==0.25.0
+numpy<2.0
+importlib-metadata

@@ -1,0 +1,22 @@
+# Python virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# IDE and OS files
+.vscode/
+.DS_Store
+
+# Do NOT upload the large datasets
+data/raw/
+data/processed/
+
+# Do NOT upload local outputs or logs
+output/
+logs/
+models/*-training-output/
+
+# Do NOT upload test input files
+input/
